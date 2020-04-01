@@ -59,12 +59,11 @@ export default {
   user-select: none;
   .loader {
     font-size: 10px;
-    margin: 50px auto;
     text-indent: -9999em;
-    width: 11em;
-    height: 11em;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
-    background: #ffffff;
+    background: var(--primary);
     background: linear-gradient(
       to right,
       #ffffff 10%,
@@ -76,7 +75,7 @@ export default {
     &:before {
       width: 50%;
       height: 50%;
-      background: #ffffff;
+      background: var(--primary);
       border-radius: 100% 0 0 0;
       position: absolute;
       top: 0;
@@ -84,7 +83,7 @@ export default {
       content: "";
     }
     &:after {
-      background: #0dc5c1;
+      background: var(--secondary);
       width: 75%;
       height: 75%;
       border-radius: 50%;
