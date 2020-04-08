@@ -7,8 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "@bcwdev/auth0-vue": "0.0.8",
-    "@bcwdev/quickvue": "^0.1.3",
+    "@bcwdev/auth0-vue": "0.0.12",
+    "@bcwdev/quickvue": "^0.1.4",
     "bootstrap": "^4.4.1",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
